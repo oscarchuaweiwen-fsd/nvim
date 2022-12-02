@@ -1,5 +1,5 @@
 require("dapui").setup({
-	icons = { expanded = "", collapsed = "", current_frame = "" },
+	icons = { expanded = "*", collapsed = "->", current_frame = "--" },
 	mappings = {
 		-- Use a table to apply multiple mappings
 		expand = { "<CR>", "<2-LeftMouse>" },
@@ -36,7 +36,7 @@ require("dapui").setup({
 				"stacks",
 				"watches",
 			},
-			size = 40, -- 40 columns
+			size = 30, -- 40 columns
 			position = "left",
 		},
 		{
@@ -54,8 +54,8 @@ require("dapui").setup({
 		-- Display controls in this element
 		element = "repl",
 		icons = {
-			pause = "",
-			play = "",
+			pause = "⏸",
+			play = "▶",
 			step_into = "",
 			step_over = "",
 			step_out = "",

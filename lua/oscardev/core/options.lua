@@ -24,7 +24,7 @@ opt.cursorline = true
 opt.termguicolors = true
 opt.background = "dark"
 opt.signcolumn = "yes"
-
+opt.shell = "zsh"
 -- backspace
 opt.backspace = "indent,eol,start"
 
